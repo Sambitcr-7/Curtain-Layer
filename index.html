@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curtain Layer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="curtain">
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul>
+            <li><a href="#">Abhigyan</a></li>
+            <li><a href="#">Adarsh Saurabh</a></li>
+            <li><a href="#">Karn Tiwari</a></li>
+            <li><a href="#">Shadhanshu</a></li>
+            <li><a href="#">Vicky</a></li>
+        </ul>
+        <div class="toggle" onclick=" toggle()"></div>
+    </div>
+    <script class="text/javascript">
+        function toggle() {
+            var curtain = document.getElementById('curtain');
+            curtain.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
